@@ -4,14 +4,11 @@ body  {
     align-items: center;
     min-height: 98vh; }
 
-    
-
-
 #rnds_label {
         font-size: 35px;
-    }
+        }
 
-#foot {
+#foot_box {
     display: flex;
     flex-direction: column;
     margin-top: auto;
@@ -20,11 +17,19 @@ body  {
     align-items: center;
     justify-content: center;
     width: 20vw;
-    height: 6vw;
+    height: 4.5vw;
+}
+
+#foot_content {
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    height: 3vw;
 }
 
 #ply_btn {
     margin:30px;
+    width:10vw;
 }
 
 #ply_btn:hover {
